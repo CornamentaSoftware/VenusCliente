@@ -40,5 +40,4 @@ public class Hilo implements Runnable{
         socket.close();
         return respuesta;
     }
-
 }

@@ -194,13 +194,14 @@
             </div>
             <div class="Div2">
                 <div class="ochenta"><br>
-                    <form name="Dardealta" action="alta.jsp" enctype=multipart/form-data method="POST">
+                    <form name="Dardealta" action="Solicita" enctype=multipart/form-data method="POST">
                         <input type="text" class="R" placeholder="Nombre" name="nombre" maxlength="30" id="cajanombre" onkeypress="return solocadena(event)" required>
                         <input type="text" class="R" placeholder="Apellido(s)" name="apellido" maxlength="50" id="cajaapellido" onkeypress="return solocadena(event)" required>
                         <input type="text" class="R" placeholder="Usuario" name="username" maxlength="30" id="cajausuario" required>
                         <input type="password" class="R" placeholder="Contraseña" name="contrasenia" maxlength="30" id="con1" required>
                         <input type="password" class="R" placeholder="Confirmar Contraseña" name="confcontrasenia" id="con2" maxlength="30" required>
                         <input type="text" class="R" placeholder="Correo electrónico" name="correo" id="corr" maxlength="30" required><br>
+                        <input type="text" name="Servicio" value="Registro" style="visibility: hidden">
                         <span class="iborrainputfile" id="valor">
                             <i class="fa fa-upload subir"></i>
                             <p class="nada" id="texto">Seleccionar imagen perfil</p>
